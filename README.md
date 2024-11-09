@@ -34,13 +34,15 @@ Streamlit
 
 1. Clone Repo
    
-   ```git clone https://github.com/Arch2775/portfolio-var-analysis.git```
+   ```python
+   git clone https://github.com/Arch2775/portfolio-var-analysis.git```
    
-   ```cd portfolio-var-analysis```
+   cd portfolio-var-analysis```
 
 3. Run App
    
-   ```streamlit run app.py```
+   ```python
+   streamlit run app.py```
 
 ## Usage
 
