@@ -15,7 +15,33 @@ page = st.sidebar.radio("Go to", ["Home", "Concept"])
 
 if page == "Home":
     # Title and Description
-    st.title("Portfolio Value at Risk (VaR) Analysis")
+    st.markdown("""
+    <style>
+        /* Importing Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+        
+        .title {
+            font-family: 'Roboto Slab', serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: #F5F5DC;
+            background: linear-gradient(45deg, #B0B0B0, #D3D3D3); /* Silver Gradient */
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <div class="title">
+        Portfolio Value at Risk (VaR) Analysis
+    </div>
+""", unsafe_allow_html=True)
+
+
+
+    st.write("")
     st.write("""
     This app allows you to upload your portfolio data and perform various risk analysis techniques, including Value at Risk (VaR), Stress Testing, and Backtesting.
     You can explore Historical VaR, Parametric VaR, and Monte Carlo VaR methods, along with stress testing scenarios.
@@ -221,7 +247,34 @@ if page == "Home":
         st.write(f"Number of VaR breaches: {len(actual_losses)} out of {len(portfolio_returns)} observations.")
 
 elif page == "Concept":
-    st.title("Understanding Value at Risk (VaR) and Stress Testing Methods")
+    st.markdown("""
+    <style>
+        /* Importing Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+        
+        .title {
+            font-family: 'Roboto Slab', serif;
+            font-size: 35px;
+            font-weight: bold;
+            color: #F5F5DC;
+            background: linear-gradient(45deg, #B0B0B0, #D3D3D3); /* Silver Gradient */
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <div class="title">
+        Understanding Value at Risk (VaR) and Stress Testing Methods
+    </div>
+""", unsafe_allow_html=True)
+    
+
+    st.write(" ")
+    st.write(" ")
+    st.write(" ")
 
     st.markdown("""
     ### 1. Historical VaR
