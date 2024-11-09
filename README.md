@@ -10,9 +10,13 @@ A Streamlit-based web app for analyzing financial portfolio risks using:
 ## Key Features
 
 **Upload Portfolio**: CSV format with historical prices.
+
 **VaR Analysis**: Calculate risk for individual assets and the entire portfolio.
+
 **Stress Testing**: Analyze portfolio under extreme market conditions.
+
 **Backtesting**: Check model accuracy by comparing actual vs. predicted losses.
+
 **Visualization**: Portfolio returns distribution with VaR estimates.
 
 ## Installation
