@@ -35,7 +35,7 @@ Streamlit
 1. Clone Repo
    
    ```python
-   git clone https://github.com/Arch2775/portfolio-var-analysis.git```
+   git clone https://github.com/Arch2775/portfolio-var-analysis.git
    
    cd portfolio-var-analysis```
 
