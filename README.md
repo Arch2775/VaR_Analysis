@@ -52,13 +52,13 @@ Streamlit
 
 ## File Structure
 
-├── app.py               # Main app
+```├── app.py               # Main app```
 
-├── portfolio.csv        # Sample data
+```├── portfolio.csv        # Sample data```
 
-├── requirements.txt     # Dependencies
+```├── requirements.txt     # Dependencies```
 
-├── README.md            # Documentation
+```├── README.md            # Documentation```
 
 
 
