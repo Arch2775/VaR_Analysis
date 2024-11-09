@@ -29,11 +29,11 @@ Streamlit
 ## Steps
 
 1. Clone Repo
-   git clone https://github.com/yourusername/portfolio-var-analysis.git
-   cd portfolio-var-analysis
+   ```git clone https://github.com/Arch2775/portfolio-var-analysis.git```
+   ```cd portfolio-var-analysis```
 
 2. Run App
-   streamlit run app.py
+   ```streamlit run app.py```
 
 ## Usage
 
@@ -46,8 +46,11 @@ Streamlit
 ## File Structure
 
 ├── app.py               # Main app
+
 ├── portfolio.csv        # Sample data
+
 ├── requirements.txt     # Dependencies
+
 ├── README.md            # Documentation
 
 
