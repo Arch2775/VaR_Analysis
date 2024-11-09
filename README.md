@@ -54,6 +54,7 @@ Streamlit
 
 ## File Structure
 
+```
 ├── app.py               # Main app
 
 ├── portfolio.csv        # Sample data
