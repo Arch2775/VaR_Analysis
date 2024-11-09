@@ -4,7 +4,9 @@ Project that estimates VaR of a portfolio using 3 different methods and performs
 A Streamlit-based web app for analyzing financial portfolio risks using:
 
 ### Value at Risk (VaR): Historical, Parametric, and Monte Carlo methods.
+
 ### Stress Testing: Hypothetical scenarios (e.g., Market Crash, Tech Selloff).
+
 ### Backtesting: Evaluates VaR model accuracy against historical data.
 
 ## Key Features
@@ -30,9 +32,10 @@ Streamlit
 
 1. Clone Repo
    ```git clone https://github.com/Arch2775/portfolio-var-analysis.git```
+   
    ```cd portfolio-var-analysis```
 
-2. Run App
+3. Run App
    ```streamlit run app.py```
 
 ## Usage
