@@ -25,3 +25,31 @@ A Streamlit-based web app for analyzing financial portfolio risks using:
 
 Python 3.8+
 Streamlit
+
+## Steps
+
+1. Clone Repo
+   git clone https://github.com/yourusername/portfolio-var-analysis.git
+   cd portfolio-var-analysis
+
+2. Run App
+   streamlit run app.py
+
+## Usage
+
+1.Upload a CSV file with historical prices.
+
+2.Adjust VaR settings (confidence level, holding period).
+
+3.View results for VaR, stress tests, and backtesting.
+
+## File Structure
+
+├── app.py               # Main app
+├── portfolio.csv        # Sample data
+├── requirements.txt     # Dependencies
+├── README.md            # Documentation
+
+
+
+
