@@ -1,4 +1,5 @@
 # VaR_Analysis
+
 Project that estimates VaR of a portfolio using 3 different methods and performs stress-testing
 
 A Streamlit-based web app for analyzing financial portfolio risks using:
@@ -26,16 +27,19 @@ A Streamlit-based web app for analyzing financial portfolio risks using:
 ### Prerequisites
 
 Python 3.8+
+
 Streamlit
 
 ## Steps
 
 1. Clone Repo
+   
    ```git clone https://github.com/Arch2775/portfolio-var-analysis.git```
    
    ```cd portfolio-var-analysis```
 
 3. Run App
+   
    ```streamlit run app.py```
 
 ## Usage
