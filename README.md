@@ -44,6 +44,12 @@ Streamlit
    ```python
    streamlit run app.py
 
+
+## Demo 
+
+https://var-analyzer.streamlit.app/
+
+
 ## Usage
 
 1.Upload a CSV file with historical prices.
